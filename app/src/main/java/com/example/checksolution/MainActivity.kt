@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     var percentage = 0.0
     var choiceComputer = true
 
-    fun onClickStartBtn(view: View)
+    fun BtnStart(view: View)
     {
         var result = 0
         val operands = arrayOf("+","-","*","/")
@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
         startTimer()
     }
 
-    fun onClickRightBtn(view: View)
+    fun BtnRight(view: View)
     {
         if (choiceComputer)
         {
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         resetTimer()
     }
 
-    fun onClickWrongBtn(view: View)
+    fun BtnWrong(view: View)
     {
         if (!choiceComputer)
         {
